@@ -1,0 +1,77 @@
+{
+  // Aparência
+  "workbench.colorTheme": "Min Dark",
+  "workbench.preferredDarkColorTheme": "Min Dark",
+  "workbench.preferredLightColorTheme": "Min Dark",
+  "workbench.iconTheme": "symbols",
+  "window.titleBarStyle": "custom",
+  "window.autoDetectColorScheme": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+
+  // Editor
+  "editor.fontFamily": "JetBrains Mono, Fira Code, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.renderLineHighlight": "gutter",
+  "editor.parameterHints.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // ESLint e Prettier
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Formatação padrão por linguagem
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+
+  // Terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, monospace",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.gpuAcceleration": "on",
+
+  // Git
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact"
+}
